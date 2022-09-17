@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opdracht 3.2</title>
+
+<link rel="stylesheet" href="styleform.css">
+</head>
+<body>
+        <div>
+            <label for="Voornaam">Voornaam</label>
+        <input type="text" name="Voornaam" id="Voornaam" placeholder="Voornaam" number="0">
+        </div>
+        <div>
+            <label>Achternaam</label>
+        <input type="password" name="Achternaam" placeholder="Achternaam"
+        required>
+        <div>
+            <label>Straatnaam en huisnummer</label>
+        <input type="Straatnaam en huisnummer" placeholder="Straatnaam en huisnummer" required</div>
+        </div>
+        <div>
+            Geslacht
+            <div>
+              <label for="male">Man</label>
+              <input type="radio" name="geslacht" id="man" value="man">
+            </div>
+            <div>
+              <label for="Vrouw">Vrouw</label>
+              <input type="radio" name="geslacht" id="Vrouw" value="Vrouw">
+            </div>
+          </div>
+          <div>
+            <label>Postcode</label>
+            <input type="Postcode" id="postcode" placeholder="Postcode" required>
+        </div>
+          <div>
+            <label for="Land">Land</label>
+            <input type="Land" placeholder="Land" required>
+          </div>
+        <div>
+            <label>BSN-Nummer</label> 
+            <input type="BSN-Nummer" minlength="9" maxlength="9" placeholder="BSN-Nummer">
+        </div>
+        <div>
+          <label for="Vakantieland">Vakantieland</label>
+          <select id="Vakantieland" name="Vakantieland">
+            <option value="Option">Kies een van de onderstaande landen ↓</option>
+            <option value="frankrijk">Frankrijk</option>
+            <option value="Belgie">Belgie</option>
+            <option value="Spanje">Spanje</option>
+            <option value="Turkije">Turkije</option>
+          </select>
+          <div>
+            <label for="date">Datum van vertrek</label>
+            <input type="date" id="date" name="date">
+          </div>
+          <div>
+            <label for="date">Datum van Tererugkomst</label>
+            <input type="date" id="date" name="date">
+          </div>
+        </div>
+        <div>
+          <label for="Aantal reisgenoten">Aantal reisgenoten</label>
+          <input type="number" name="number" id="number" min="1" max="4">
+        </div>
+        <div>
+          <label for="email">email:</label>
+          <input type="email" id="email" name="email" placeholder="email">
+        </div>
+        <div>
+          <label for="password">wachtwoord</label>
+          <input type="password" id="pass" name="pass" maxlength="12">
+        </div>
+
+        <button type="reset">Reset</button>
+        <button type="submit">Boek nu</button>
+    </form>
+</body>
+</html> 
